@@ -1,0 +1,11 @@
+.container {
+  border: 10px solid black;
+  padding: 5px;
+}
+
+.second {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  margin: 10px 0;
+}
