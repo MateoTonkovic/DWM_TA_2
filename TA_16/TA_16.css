@@ -1,0 +1,47 @@
+div {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-color: red;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background-color: blue;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
